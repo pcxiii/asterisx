@@ -12,4 +12,12 @@ $( function() {
 	console.log("panel: " + panel);
 	console.log("panelheight: " + panelheight);
 
+	$('#container').children().hide();
+
+	$('.function').click(function(){
+			id = $(this).attr('id');
+	$('#container').children().hide();
+		$("#container div[class='"+id+"']").fadeIn();
+	});
+
 } );
