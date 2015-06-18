@@ -15,7 +15,7 @@ $( function() {
 
 	$('#container').children().hide();
 
-
+	  $('#tschedtable').dataTable();
 
 	// $('#top_menu .ui-btn').click(function(){
 	// 		var value = $(this).text();

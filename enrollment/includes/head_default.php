@@ -8,4 +8,7 @@
 		<script src="plugins/jquery-mobile/jquery.mobile-1.4.4.min.js"></script>
 
 			<script type="text/javascript" src='plugins/bs/js/respond.js'></script>
+		<link rel="stylesheet" type="text/css" href="plugins/dt/dataTables.bootstrap.css">
 			<script type="text/javascript" src='plugins/bs/js/bootstrap.min.js'></script>
+		<script type="text/javascript" src='plugins/dt/jquery.dataTables.min.js'></script>
+			<script type="text/javascript" src='plugins/dt/dataTables.bootstrap.js'></script>
