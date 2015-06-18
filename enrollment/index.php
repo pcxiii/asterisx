@@ -37,10 +37,6 @@
 							
 					<button data-icon="search" data-theme="a" data-corners="false" class='menu_cl'>Home</button>
 					<button data-icon="mail" data-theme="a" data-corners="false" class='menu_cl'>Student</button>
-					<button data-icon="user" data-theme="a" data-corners="false" class='menu_cl'>Teacher</button>
-					<button data-icon="eye" data-theme="a" data-corners="false" class='menu_cl'>Subject</button>
-					<button data-icon="eye" data-theme="a" data-corners="false" class='menu_cl'>Room</button>
-					<button data-icon="eye" data-theme="a" data-corners="false" class='menu_cl'>Department</button>
 
 						</div>
 				</nav>
