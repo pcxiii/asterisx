@@ -1,3 +1,4 @@
+
 body, .ui-page{
     height: 100%;
 }
@@ -11,12 +12,12 @@ body, .ui-page{
 
  /* CONTENT */
  .ui-content{
- 	width: 90%;
- 	margin: 0 auto;
+    width: 90%;
+    margin: 0 auto;
  }
  .ui-content > div{
- 	float: left;
- 	 padding:.5%
+    float: left;
+     padding:.5%
  }
 
 /* PANELS */
@@ -66,8 +67,5 @@ body, .ui-page{
 
 
 
-
-.contents{
-    width: 100% !important;
-}
+ 
 

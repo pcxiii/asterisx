@@ -12,10 +12,17 @@ $( function() {
 	console.log("panel: " + panel);
 	console.log("panelheight: " + panelheight);
 
-
-	$('#container').children().hide();
-
 	  $('#tschedtable').dataTable();
+	  $('#tmaster').dataTable();
+	  $('#studschedtable').dataTable();
+	  $('#deptlisttable').dataTable();
+	  $('#roomlisttable').dataTable();
+	  $('#studlisttable').dataTable();
+	  $('#subjectlisttable').dataTable();
+	  $('#teachertlisttable').dataTable();
+
+/*	$('#container').children().hide();
+
 
 	$('#top_menu .ui-btn').click(function(){
 			var value = $(this).text();
@@ -35,7 +42,7 @@ $( function() {
 			});
 
 
-	});
+	});*/
 
 	
 });
