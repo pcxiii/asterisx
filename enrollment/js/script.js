@@ -17,25 +17,23 @@ $( function() {
 
 
 
-	$('#top_menu .ui-btn').click(function(){
-			var value = $(this).text();
+	// $('#top_menu .ui-btn').click(function(){
+	// 		var value = $(this).text();
 			
-			$('.contents').empty();
-			$('.contents').load(value+".php",function(){
-			$('.contents').fadeOut(0);
-				$('.contents').fadeIn('1000');
-				$('.contents').trigger('create');
+	// 		$('.contents').empty();
+	// 		$('.contents').load(value+".php",function(){
+	// 		$('.contents').fadeOut(0);
+	// 			$('.contents').fadeIn('1000');
+	// 			$('.contents').trigger('create');
 				
-			$('.function').bind('click',function(){
-							id = $(this).attr('id');
-			$('#container').children().hide();
-				$("#container div[class='"+id+"']").fadeIn();
+	// 		$('.function').bind('click',function(){
+	// 						id = $(this).attr('id');
+	// 		$('#container').children().hide();
+	// 			$("#container div[class='"+id+"']").fadeIn();
 
-			});
-			});
-
-
-	});
+	// 		});
+	// 		});
+	// });
 
 	
 });
