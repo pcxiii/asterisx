@@ -17,7 +17,7 @@ $( function() {
 
 
 
-	$('.menu_cl').click(function(){
+	$('#top_menu .ui-btn').click(function(){
 			var value = $(this).text();
 			
 			$('.contents').empty();
