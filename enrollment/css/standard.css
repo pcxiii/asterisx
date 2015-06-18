@@ -56,14 +56,23 @@
     margin: 0 auto;
 }
 
+
 .menu_cl{
-width:218px !important;
 
-     margin:7px 2px 0px 2px !important;  
+    margin-left:5px !important;
+
+    width:214px !important;
 }
-
 .indicator{
   
     margin: 0 auto !important;
     width: 97%;
 }
+
+
+
+
+.contents{
+    width: 100% !important;
+}
+

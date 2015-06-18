@@ -47,7 +47,7 @@
 			</div>
 			<br>
 
-				<div class='panel indicator row' data-role='header' data-theme='a' >
+				<div class='panel indicator ' data-role='header' data-theme='a' >
 						<div  class='panel-body' >
 							Teacher's Page
 						</div>
@@ -55,14 +55,15 @@
 				</div>		
 
 			<div data-role="content" class='contents row'>
+				<?php include("includes/tsched.php"); ?>
 			</div><!-- end content -->
 				
 			<div data-role="footer" data-position="fixed" >
-				<button>Contact Us</button>
-				<button>Help</button>
-				<button>Forum</button>
-				<button>Report Bug</button>
-			</div><!-- end footer -->
+				<p align='center' style='font-size:13px;color:#ffffff'>
+					
+				Megumi Enrollment System. All Rights Reserved 2015-2016
+				</p>
+			</footer><!-- end footer -->
 
 		</div>
 
