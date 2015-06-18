@@ -1,3 +1,6 @@
+body, .ui-page{
+    height: 100%;
+}
 /* HEADER AND FOOTER */
  .ui-header {
      height:54px;
@@ -5,6 +8,7 @@
  .ui-header .ui-btn,  .ui-header .ui-title {
     margin-top: 7px;
  }
+
  /* CONTENT */
  .ui-content{
  	width: 90%;
@@ -32,13 +36,16 @@
 
 /* TOP MENU NAVIGATION */
 #top_menu{
-	margin-top: -1px;
- 	width: 100%;
+    margin-top: -1px;
+    width: 100%;
+    margin: 0 auto;
 }
 #top_menu .ui-btn{
-	width: 25%;
-	margin: 1px 0;
-	float: left
+    width: 16%;
+    margin: 1px 0;
+    float: left;
+    max-width:218px;
+    margin:7px 2px 0px 2px !important;  
 }
 
 #home_title{
@@ -51,20 +58,8 @@
     letter-spacing: 3px;
 }
 
-#top_menu{
-    padding-top:5px;
-    margin: 0 auto;
-}
 
-
-.menu_cl{
-
-    margin-left:5px !important;
-
-    width:214px !important;
-}
 .indicator{
-  
     margin: 0 auto !important;
     width: 97%;
 }
