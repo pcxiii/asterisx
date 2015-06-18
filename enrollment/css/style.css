@@ -188,3 +188,19 @@ html, body {
 	margin-bottom:100%;
 	letter-spacing: 3px;
 }
+
+#top_menu{
+	padding-top:5px;
+	margin: 0 auto;
+}
+
+.menu_cl{
+width:216px !important;
+	margin:7px 3px 0px 3px !important; 
+}
+
+.indicator{
+	margin:0px 3px 0px 3px !important; 
+	margin: 0 auto !important;
+	width: 96%;
+}

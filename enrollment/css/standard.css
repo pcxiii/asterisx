@@ -40,3 +40,30 @@
 	margin: 1px 0;
 	float: left
 }
+
+#home_title{
+    padding-left:0px;
+    padding right:0px; 
+    margin:0px; 
+    text-transform:uppercase; 
+    font-size:13px; 
+    margin-bottom:100%;
+    letter-spacing: 3px;
+}
+
+#top_menu{
+    padding-top:5px;
+    margin: 0 auto;
+}
+
+.menu_cl{
+width:218px !important;
+
+     margin:7px 2px 0px 2px !important;  
+}
+
+.indicator{
+  
+    margin: 0 auto !important;
+    width: 97%;
+}

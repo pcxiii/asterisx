@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- PLUGINS -->
-
+		<link rel="stylesheet" type="text/css" href="plugins/bs/css/bootstrap.css">
 		<link rel="stylesheet" href="plugins/jquery-mobile/jquery.mobile-1.4.4.min.css">
 		<link rel="stylesheet" type="text/css" href="plugins/jquery-mobile/themes/enrollment.css">
 		<link rel="stylesheet" type="text/css" href="plugins/jquery-mobile/themes/enrollment.min.css">
@@ -14,6 +14,9 @@
 
 		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 		<script src="plugins/jquery-mobile/jquery.mobile-1.4.4.min.js"></script>
+
+			<script type="text/javascript" src='plugins/bs/js/respond.js'></script>
+			<script type="text/javascript" src='plugins/bs/js/bootstrap.min.js'></script>
 
 		<!-- CUSTOM -->
 		<link rel="stylesheet" type="text/css" href="css/standard.css">
@@ -30,21 +33,34 @@
 				</div>
 			</div><!-- end right panel -->
 
-			<div id="header" data-role="header" data-theme="b">
-				<h1>Megumi Enrollment System</h1>
-				<a  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-icon-myicon ui-btn-right" data-position="right" href="#panel_right">Account</a>
+			<div id="header" data-role="header" data-theme="a">
+				<h1>MEGUMI Academy</h1>
+				<a  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-btn-right" data-position="right" href="#panel_right"><span class='glyphicon glyphicon-user'></span> Account</a>
 			</div><!-- end header -->
 
-			<div id="top_menu">
-				<button data-icon="search" data-theme="d" data-corners="false" class='menu_cl'>Search</button>
-				<button data-icon="mail" data-theme="d" data-corners="false" class='menu_cl'>News</button>
-				<button data-icon="user" data-theme="d" data-corners="false" class='menu_cl'>Users</button>
-				<button data-icon="eye" data-theme="d" data-corners="false" class='menu_cl'>Records</button>
+			<div id="top_menu" class='row' >
+				<nav class='navbar'>
+						<div class='container-fluid'>
+							
+					<button data-icon="search" data-theme="a" data-corners="false" class='menu_cl'>Home</button>
+					<button data-icon="mail" data-theme="b" data-corners="false" class='menu_cl'>Student</button>
+					<button data-icon="user" data-theme="b" data-corners="false" class='menu_cl'>Teacher</button>
+					<button data-icon="eye" data-theme="b" data-corners="false" class='menu_cl'>Subject</button>
+					<button data-icon="eye" data-theme="b" data-corners="false" class='menu_cl'>Room</button>
+					<button data-icon="eye" data-theme="b" data-corners="false" class='menu_cl'>Department</button>
+					
 
+						</div>
+				</nav>
 			</div>
+				<div class='panel panel-default indicator'>
+						<div  class='panel-body'>
+							Teacher's Page
+						</div>
+					
+				</div>
 
-			<div data-role="content" class='contents' >
-				
+			<div data-role="content" class='contents row' >
 			</div><!-- end content -->
 				
 			<div data-role="footer" data-position="fixed" >
