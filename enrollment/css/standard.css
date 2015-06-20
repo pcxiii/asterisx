@@ -1,5 +1,6 @@
-
 body, .ui-page{
     height: 100%;
 }
-
+.ui-header{
+    min-height: 50px;
+}

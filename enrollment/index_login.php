@@ -20,40 +20,15 @@
 
 		<!-- CUSTOM -->
 		<link rel="stylesheet" type="text/css" href="css/standard.css">
-		<script type="text/javascript" src="js/script.js"></script>
+		  <script type="text/javascript" src="js/script.js"></script>
+		
 
-		<!-- SLIDER -->
-		<script src="plugins/slider/js/jquery.min.js"></script>
-		<script src="plugins/slider/js/jssor.slider.mini.js"></script>
-		<script>
-		    jQuery(document).ready(function ($) {
-		        var options = { 
-				$AutoPlay: true,
-				$FillMode: 2,                                           
-				$DragOrientation: 3                                
-			};
-		        var jssor_slider1 = new $JssorSlider$('slider1_container', options);
-		         //responsive code begin
-		        //you can remove responsive code if you don't want the slider scales
-		        //while window resizes
-		        function ScaleSlider() {
-		            var parentWidth = $('#slider1_container').parent().width();
-		            if (parentWidth) {
-		                jssor_slider1.$ScaleWidth(parentWidth);
-		            }
-		            else
-		                window.setTimeout(ScaleSlider, 30);
-		        }
-		        //Scale slider after document ready
-		        ScaleSlider();
-		                                        
-		        //Scale slider while window load/resize/orientationchange.
-		        $(window).bind("load", ScaleSlider);
-		        $(window).bind("resize", ScaleSlider);
-		        $(window).bind("orientationchange", ScaleSlider);
-		        //responsive code end
-		    });
-		</script>
+		
+		<!-- Bootstrap Core CSS SLIDER -->
+		<link href="plugins/slider/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom CSS SLIDER -->
+		<link href="plugins/slider/css/full-slider.css" rel="stylesheet">
 
 	</head>
 	<body>
@@ -61,34 +36,85 @@
 
 			<div id="panel_right"  data-role="panel" data-display="overlay" data-position="right">
 				<div data-role="controlgroup" data-corners="false"> 
-					<a href="#" data-role="button">Profile</a>
-					<a href="#" data-role="button">Settings</a>
-					<a href="#" data-role="button">Logout</a>
+					  <img border="0" src="img/favicon.png" 
+					  alt="Logo, Megumi" style="width:100%"/>
+					  <h1 style="text-align:center">Megumi Academy</h1>
+					<input placeholder="username">
+					<input placeholder="password">
+					<a href="index.php" data-role="button" data-transition="flip">login</a>
 				</div>
 			</div><!-- end right panel -->
 
-			<?php include("templates/header.php"); ?>
+			<?php include("templates/login_header.php"); ?>
+			
 
-			<div data-role="content" id="slider_content">
-				<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 600px; height:100%">
-				<!-- Slides Container -->
-					<div u="slides" style="cursor: move; position: absolute; overflow: hidden; left: 0px; top: 0px; width: 600px; height:200px">
-						<div><img u="image" src="img/slideshow/2.jpg" /></div>
-						<div><img u="image" src="img/slideshow/1.jpg" /></div>
-					</div>
-				</div>
-				 <script>jssor_slider1_starter('slider1_container');</script>
+			<div data-role="content" style="margin:0; padding:0; height:100%;">
+				<!-- Full Page Image Background Carousel Header -->
+				<header id="myCarousel" class="carousel slide">
+				    <!-- Indicators -->
+				    <ol class="carousel-indicators">
+				        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				        <li data-target="#myCarousel" data-slide-to="1"></li>
+				        <li data-target="#myCarousel" data-slide-to="2"></li>
+				    </ol>
+
+				    <!-- Wrapper for Slides -->
+				    <div class="carousel-inner">
+				        <div class="item active">
+				            <!-- Set the first background image using inline CSS below. -->
+				            <div class="fill" style="background-image:url('img/slideshow/3.jpg');"></div>
+				            <div class="carousel-caption">
+				               <!--  <h2>Caption 1</h2> -->
+				            </div>
+				        </div>
+				        <div class="item">
+				            <!-- Set the second background image using inline CSS below. -->
+				            <div class="fill" style="background-image:url('img/slideshow/1.jpg');"></div>
+				            <div class="carousel-caption">
+				                <!-- <h2>Caption 2</h2> -->
+				            </div>
+				        </div>
+				        <div class="item">
+				            <!-- Set the third background image using inline CSS below. -->
+				            <div class="fill" style="background-image:url('img/slideshow/2.jpg');"></div>
+				            <div class="carousel-caption">
+				                <!-- <h2>Caption 3</h2> -->
+				            </div>
+				        </div>
+				    </div>
+
+				    <!-- Controls -->
+				    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				        <span class="icon-prev"></span>
+				    </a>
+				    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				        <span class="icon-next"></span>
+				    </a>
+
+				</header>
 			</div><!-- end content -->
 				
 			<div data-role="footer" data-position="fixed" >
 				<button>Contact Us</button>
 				<button>Help</button>
 				<button>Forum</button>
-				<button>Report Bug</button>
+				<button>About Us</button>
 			</div><!-- end footer -->
 
 		</div>
 
+		<!-- jQuery -->
+		<script src="plugins/slider/js/jquery.js"></script>
+
+		<!-- Bootstrap Core JavaScript -->
+		<script src="plugins/slider/js/bootstrap.min.js"></script>
+
+		<!-- Script to Activate the Carousel -->
+		<script>
+		$('.carousel').carousel({
+		    interval: 1500 //changes the speed
+		});
+		</script>
 	</body>
 
 </html>

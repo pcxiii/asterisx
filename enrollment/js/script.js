@@ -1,6 +1,4 @@
 $( function() {
-
-
   	var header = $('[data-role=header]').outerHeight();
 	var panel = $('body').height();
 	var panelheight = panel - header;
