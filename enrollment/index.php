@@ -24,48 +24,18 @@
 				</div>
 			</div><!-- end right panel -->
 
-			<div id="header" data-role="header" >
-			<div>
-				<p style='font-size:27px;float:left;padding-top:5px;font-stretch:ultra-condensed'>MEGUMI<span style='color:#00b0eb'> Academy</span></p>
-			</div>
-				<a  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-btn-right" data-position="right" href="#panel_right"><span class='glyphicon glyphicon-user'></span> Account</a>
-			</div><!-- end header -->
-
-			<div id="top_menu" class='row' >
-				<nav class='navbar'>
-						<div class='container-fluid'>
-							
-					<button data-icon="search" data-theme="a" data-corners="false" class='menu_cl'>Home</button>
-					<button data-icon="mail" data-theme="a" data-corners="false" class='menu_cl'>Student</button>
-
-						</div>
-				</nav>
-			</div>
-			<br>
-
-			<div class='panel indicator ' data-role='header' data-theme='a' >
-					<div  class='panel-body' >
-						Teacher's Page
-					</div>
-				
-			</div>		
-
-			<div data-role="content" class='contents row'>
-				<?php include("teacher_masterlist.php"); ?>
+			<?php include("templates/header.php") ?>
+		
+			<div data-role="content" class='row'>
+					
+				<?php include($_GET['file']); ?>
 			</div><!-- end content -->
 				
-
-		<!-- 	<div data-role="footer" data-position="fixed" >
-			<button>Contact Us</button>
-			<button>Help</button>
-			<button>Forum</button>
-			<button>Report Bug</button>
-			
-		</div>end footer -->
-
+			<?php include('templates/popup.php');?>
 		</div>
+
+
 
 	</body>
 
 </html>
-

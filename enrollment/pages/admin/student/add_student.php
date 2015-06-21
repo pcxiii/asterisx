@@ -1,5 +1,9 @@
-    <h4>Personal Information</h4>
-   <div class='row'>
+  <div class='panel indicator' data-role='header' data-theme='a' >
+            <div  class='panel-body' >
+              Add New Student
+            </div>     
+  </div>
+   <div class=' container'>
    	<form action="">
    	<div class='container row ' style='margin-bottom:50px'>
    		<div class='col-md-3'>
@@ -182,11 +186,6 @@
 	
 			   <div class='row'>
 			   <div class='col-md-8'>
-			 
-	
-			     <a href="#" class="btn btn-muted btn-default" style='background-color:#666;color:white;float:left'>
-			    <span class="glyphicon glyphicon-arrow-left"></span> Back
-			    </a>  
 			   	
 			    <a href="#" class="btn btn-success btn-default" style='color:white;float:right;margin-left:5px'>
 			    <span class="glyphicon glyphicon-floppy-disk	"></span> Save & Add New

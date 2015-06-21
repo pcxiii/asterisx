@@ -1,11 +1,15 @@
-    <h4>Add Course</h4>
-   <div class='row'>
+  <div class='panel indicator' data-role='header' data-theme='a' >
+            <div  class='panel-body' >
+                Department List
+            </div>     
+  </div>
+   <div class=''>
    	<form action="">
    	<div class='container row ' style='margin-bottom:200px'>
    		<div class='col-md-6'>
    			
 		   		<label for="">
-		   				Room Code
+		   				Course Code
 					<input type="text" name="" id="">
 		   			
 		   		</label>
@@ -13,21 +17,20 @@
    		<div class='col-md-6'>
    			
 		   		<label for="">
-		   				Room Description
+		   				Course Description
 					<input type="text" name="" id="">
 		   			
 		   		</label>
    		</div>
 	</div>
 	
-			   <div class='row'>
-			   <div class='col-md-8'>
+			   <div class=''>
+			   <div class='col-md-7'>
 			 
-	
-			     <a href="#" class="btn btn-muted btn-default" style='background-color:#666;color:white;float:left'>
+			   		
+			     <a href="#" data-rel='back' class="btn btn-muted btn-default" style='background-color:#666;color:white;float:left'>
 			    <span class="glyphicon glyphicon-arrow-left"></span> Back
-			    </a>  
-			   	
+			    </a> 
 			    <a href="#" class="btn btn-success btn-default" style='color:white;float:right;margin-left:5px'>
 			    <span class="glyphicon glyphicon-floppy-disk	"></span> Save & Add New
 			    </a>

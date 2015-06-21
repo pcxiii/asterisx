@@ -1,5 +1,10 @@
+  <div class='panel indicator' data-role='header' data-theme='a' >
+            <div  class='panel-body' >
+            Student Personal Information
+            </div>     
+  </div>
     <div class='container'>
-    <h4>Student's Information</h4>
+
             <div class='col-md-6'>
                 <p>Full Name:</p>
                 <p>Gender:</p>
@@ -21,8 +26,13 @@
   
 
     </div>
+      <div class='panel indicator' data-role='header' data-theme='a' >
+            <div  class='panel-body' >
+              Student List
+            </div>     
+  </div>
     <div style='width:100%'>
-        <h4>Student's Schedule</h4>
+    
         <p>(Semester) | (School Year)</p>
     <span style='float:right'>
         

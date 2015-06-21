@@ -3,3 +3,9 @@ body, .ui-page{
     height: 100%;
 }
 
+
+#popup_login-popup {
+	margin: 0 auto;
+    width: 50%!important;
+
+}

@@ -1,14 +1,18 @@
-    <h4>Teacher's Information</h4>
-    <div style='width:100%' class='col-md5'>(Teacher's Name) | (Semester) | (School Year) 
+  <div class='panel indicator' data-role='header' data-theme='a' >
+            <div  class='panel-body' >
+              Teacher Schedule
+            </div>     
+  </div>
+    <div class='container col-md-12 '>(Teacher's Name) | (Semester) | (School Year) 
     <span style='float:right'>
         
         <a href="#" class="btn btn-success btn-default" style='color:white;'>
-    <span class="glyphicon glyphicon-print"></span> Print
-    </a>
-      
-        <a href="#" class="btn btn-primary btn-default" style='color:white;'>
-    <span class="glyphicon glyphicon-arrow-"> </span> View Master List
-    </a>
+        <span class="glyphicon glyphicon-print"> </span> Print
+        </a>
+          
+         <a href="?file=pages/admin/teacher/teacher_masterlist.php" rel='external' class="btn btn-primary btn-default" style='color:white;'>
+         <span class="glyphicon glyphicon-arrow-"> </span> View Master List
+        </a>
     </span>
 
     </div>
@@ -17,14 +21,14 @@
 <table id="tschedtable" class="table table-striped table-condensed table-bordered table-responsive" cellspacing="0" style='100% !important'>
         <thead>
             <tr>
-                <th>COURSE</th>
-                <th>SECTION</th>
-                <th>COURSE CODE</th>
-                <th>UNIT</th>
-                <th>DAY(S)</th>
-                <th>START TIME</th>
-                <th>END TIME</th>
-                <th>ROOM</th>
+                <th style='width:12%'>COURSE CODE</th>
+                <th style='width:9%'>YR & SEC</th>
+                <th style='width:30%'>SUBJECT</th>
+                <th >UNIT</th>
+                <th style='width:10%'>DAY(S)</th>
+                <th style='width:10%'>START TIME</th>
+                <th style='width:10%'>END TIME</th>
+                <th style='width:13%'>ROOM</th>
             </tr>
         </thead>
 
@@ -94,9 +98,12 @@
          
         </tbody>
     </table>
+    
+
 </div>
-    <div>
-         <a href="#" class="btn btn-muted btn-default" style='background-color:#666;color:white;float:right'>
+
+    <div class='container  col-md-12'>
+         <a href="?file=pages/admin/teacher/teacherlist.php" rel='external' class="btn btn-muted btn-default" style='background-color:#666;color:white;float:left'>
     <span class="glyphicon glyphicon-arrow-left"></span> Back
     </a>  
     </div>

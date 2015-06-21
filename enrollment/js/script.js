@@ -1,5 +1,16 @@
-$( function() {
+$(function() {
+	  $('#teachertlisttable').dataTable();
+	  $('#tschedtable').dataTable();
+	  $('#tmaster').dataTable();
+	  $('#studschedtable').dataTable();
+	  $('#deptlisttable').dataTable();
+	  $('#roomlisttable').dataTable();
+	  $('#studlisttable').dataTable();
+	  $('#subjectlisttable').dataTable();
 
+	   $('#teachertlisttable').dataTable();
+
+ $('a').removeClass('ui-btn-active');
 
   	var header = $('[data-role=header]').outerHeight();
 	var panel = $('body').height();
@@ -12,16 +23,19 @@ $( function() {
 	console.log("panel: " + panel);
 	console.log("panelheight: " + panelheight);
 
-	  $('#tschedtable').dataTable();
-	  $('#tmaster').dataTable();
-	  $('#studschedtable').dataTable();
-	  $('#deptlisttable').dataTable();
-	  $('#roomlisttable').dataTable();
-	  $('#studlisttable').dataTable();
-	  $('#subjectlisttable').dataTable();
-	  $('#teachertlisttable').dataTable();
-
-
+	$('#pop_login').popup("open") .on("popupafteropen", function () {
+            $(this).popup("reposition", {
+                "positionTo": "window"
+            });
+        });
+            
+        
+      $('.popup_close').click(function(){
+      		$('#popup_login').popup('close');
+      });
 
 	
+	$('#add_rom').click({
+			
+	});
 });

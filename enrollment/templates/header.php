@@ -6,11 +6,13 @@
 	<a  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-btn-right" data-position="right" href="#panel_right"><span class='glyphicon glyphicon-user'></span> Account</a>
 	<div data-role="navbar" data-iconpos="left">
 		<ul>
-			<li><a href="?file=Student" data-icon="mail" data-corners="false" >Student</a></li>
-			<li><a href="?file=Teacher" data-icon="user" data-corners="false" >Teacher</a></li>
-			<li><a href="?file=Subject" data-icon="eye" data-corners="false" >Subject</a></li>
-			<li><a href="?file=Room" data-icon="eye" data-corners="false" >Room</a></li>
-			<li><a href="?file=Department" data-icon="eye" data-corners="false" >Courses</a></li>
+
+ 			<li><a href="#accounts" data-icon="eye" class='ui-state-persist'data-rel="popup" data-corners="false" data-rel="popup" data-transition="pop">Accounts</a></li>
+ 			<li><a href="#course" data-icon="eye" class='ui-state-persist'data-rel="popup" data-corners="false" data-rel="popup" data-transition="pop">Course</a></li>
+			<li><a href="?file=pages/admin/room/roomlist.php" rel='external'  data-icon="eye" data-corners="false" data-transition='fade'>Rooms</a></li>
+			<li><a href="?file=pages/admin/subject/subjectlist.php" rel='external' data-icon="eye" data-corners="false"  data-transition='fade'>Subjects</a></li>
+<!-- 			<li><a href="?file=pages/admin/teacher/teacherlist.php" rel='external' data-icon="user" data-corners="false" >Teacher</a></li>
+ -->		
 		</ul>
 	</div><!-- /navbar -->
 

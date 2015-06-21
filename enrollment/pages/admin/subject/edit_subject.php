@@ -1,4 +1,4 @@
-    <h4>Add Subject</h4>
+    <h4>Edit Subject</h4>
        <div class='row'>
     <div class='container row' style='margin-bottom:200px'>
 <form class="">
@@ -54,7 +54,7 @@
          <div class='col-md-8'>
        
   
-           <a href="#" class="btn btn-muted btn-default" style='background-color:#666;color:white;float:left'>
+           <a href="#" data-rel ='back' class="btn btn-muted btn-default" style='background-color:#666;color:white;float:left'>
           <span class="glyphicon glyphicon-arrow-left"></span> Back
           </a>  
           

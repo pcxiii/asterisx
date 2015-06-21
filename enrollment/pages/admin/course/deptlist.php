@@ -1,8 +1,12 @@
-    <h4>Department Lists</h4>
-    <div style='width:100%' class='col-md5'>
+  <div class='panel indicator' data-role='header' data-theme='a' >
+            <div  class='panel-body' >
+                Department List
+            </div>     
+  </div>
+    <div style='width:100%' class='col-md-5'>
     <span style='float:right'>
         
-        <a href="#" class="btn btn-success btn-default" style='color:white;'>
+        <a href="?file=pages/admin/course/add_course.php" rel ='external' class="btn btn-success btn-default" style='color:white;'>
     <span class="glyphicon glyphicon-plus"></span> Add Course
     </a>
       
@@ -27,7 +31,7 @@
             <tr>
                 <td>Tiger Nixon</td>
                 <td>System Architect</td>
-                <td><a href=""><span class='glyphicon glyphicon-pencil'> </span></a></td>
+                <td><a href="?file=pages/admin/course/edit_course.php" rel='external'><span class='glyphicon glyphicon-pencil'> </span></a></td>
                 <td><a href=""><span class='glyphicon glyphicon-remove'> </span></a></td>
              
 
@@ -79,8 +83,3 @@
         </tbody>
     </table>
 </div>
-    <div>
-         <a href="#" class="btn btn-muted btn-default" style='background-color:#666;color:white;float:right'>
-    <span class="glyphicon glyphicon-arrow-left"></span> Back
-    </a>  
-    </div>

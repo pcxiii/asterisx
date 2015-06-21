@@ -1,22 +1,22 @@
-    <div class='container'>
-    <h4>Teacher's Masterlist</h4>
-    </div>
-    <div style='width:100%'>
+  <div class='panel indicator' data-role='header' data-theme='a' >
+            <div  class='panel-body' >
+              Teacher Masterlist
+            </div>     
+  </div>
+    <div class='container  col-md-12'>
         <p>(Teacher's Name) | (Semester) | (School Year)</p>
         <p>(Course & Section) | (Subject's Name)</p>
         <p>(Date of Class) | (Hours(Start-End)) | (Room)</p>
 
+            <span style='float:right'>
+                
+              <a href="#" class="btn btn-primary btn-default" style='color:white;margin-bottom:10px;'>
+                     <span class="glyphicon glyphicon-print"></span> Print </a>
+            </span>
     </div>
 
-    <span style='float:right'>
-        
-        <a href="#" class="btn btn-success btn-default" style='color:white;'>
-    <span class="glyphicon glyphicon-print"></span> Print
-    </a>
-      
-    </span>
     
-<div class='container col-md-12'>
+<div class='container  col-md-12'>
 
 <table class="table table-striped table-condensed table-bordered table-responsive" cellspacing="0" style='100% !important'>
         <thead>
@@ -113,8 +113,8 @@
         </tbody>
     </table>
 </div>
-    <div>   
-         <a href="#" class="btn btn-muted btn-default" style='background-color:#666;color:white;float:right'>
-    <span class="glyphicon glyphicon-arrow-left"></span> Back
-    </a>
+    <div class='container col-md-12'>   
+         <a href="?file=pages/admin/teacher/teacher_sched.php" rel='external' class="btn btn-muted btn-default" style='background-color:#666;color:white;float:left'>
+             <span class="glyphicon glyphicon-arrow-left"></span> Back
+     </a>
     </div>
