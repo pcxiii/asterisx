@@ -1,3 +1,4 @@
+
 $(function() {
 	  $('#teachertlisttable').dataTable();
 	  $('#tschedtable').dataTable();
@@ -11,6 +12,9 @@ $(function() {
 	   $('#teachertlisttable').dataTable();
 
  $('a').removeClass('ui-btn-active');
+
+
+$( function() {
 
   	var header = $('[data-role=header]').outerHeight();
 	var panel = $('body').height();

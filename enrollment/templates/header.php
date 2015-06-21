@@ -1,9 +1,10 @@
-<div id="header" data-role="header" data-theme="a">	
+<div id="header" data-role="header" data-theme="a" data-position="fixed">	
 	<a  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-btn-right" data-position="right" href="#panel_right"><span class='glyphicon glyphicon-search'></span> Search</a>
 	
 	<!--   <img border="0" src="http://i490.photobucket.com/albums/rr270/pelicancup/FaceBook30x30.jpg" alt="Logo, Facebook" style="float:left;display:inline"/> -->
 	<h1>MEGUMI Academy</h1>
-	<a  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-btn-right" data-position="right" href="#panel_right"><span class='glyphicon glyphicon-user'></span> Account</a>
+	<a  class="ui-btn ui-shadow ui-corner-all ui-btn-icon-left ui-btn-right" data-position="right" href="#panel_right"><span class='glyphicon glyphicon-user'>
+	</span> Account</span></a>
 	<div data-role="navbar" data-iconpos="left">
 		<ul>
 
