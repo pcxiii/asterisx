@@ -18,3 +18,16 @@
 
 		<script type="text/javascript" language="javascript" src="plugins/dt/jquery.dataTables.min.js"></script>
 		<script type="text/javascript" language="javascript" src="plugins/dt/dataTables.bootstrap.js"></script>
+
+		<!-- CUSTOM -->
+		<link rel="stylesheet" type="text/css" href="css/standard.css">
+		
+
+		
+		<!-- Bootstrap Core CSS SLIDER -->
+		<link href="plugins/slider/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom CSS SLIDER -->
+		<link href="plugins/slider/css/full-slider.css" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="plugins/dt/dataTables.bootstrap.css">

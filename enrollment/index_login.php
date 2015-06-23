@@ -6,30 +6,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- PLUGINS -->
-		<link rel="stylesheet" type="text/css" href="plugins/bs/css/bootstrap.css">
-		<link rel="stylesheet" href="plugins/jquery-mobile/jquery.mobile-1.4.4.min.css">
-		<link rel="stylesheet" type="text/css" href="plugins/jquery-mobile/themes/enrollment.css">
-		<link rel="stylesheet" type="text/css" href="plugins/jquery-mobile/themes/enrollment.min.css">
-		<link rel="stylesheet" type="text/css" href="plugins/jquery-mobile/themes/jquery.mobile.icons.min.css">
-
-		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-		<script src="plugins/jquery-mobile/jquery.mobile-1.4.4.min.js"></script>
-
-			<script type="text/javascript" src='plugins/bs/js/respond.js'></script>
-			<script type="text/javascript" src='plugins/bs/js/bootstrap.min.js'></script>
-
-		<!-- CUSTOM -->
-		<link rel="stylesheet" type="text/css" href="css/standard.css">
-		  <script type="text/javascript" src="js/script.js"></script>
+			<?php include('includes/head_default.php'); ?>
+			<script src="js/login_script.js"></script>
 		
-
-		
-		<!-- Bootstrap Core CSS SLIDER -->
-		<link href="plugins/slider/css/bootstrap.min.css" rel="stylesheet">
-
-		<!-- Custom CSS SLIDER -->
-		<link href="plugins/slider/css/full-slider.css" rel="stylesheet">
-
 	</head>
 	<body>
 		<div data-role="page" >
@@ -41,13 +20,12 @@
 					  <h1 style="text-align:center">Megumi Academy</h1>
 					<input placeholder="username">
 					<input placeholder="password">
-					<a href="index.php" data-role="button" data-transition="flip">login</a>
+					<a href="index.php?file=pages/admin/teacher/teacherlist.php" data-role="button" data-transition="flip">login</a>
 				</div>
 			</div><!-- end right panel -->
 
 			<?php include("templates/login_header.php"); ?>
 			
-
 			<div data-role="content" style="margin:0; padding:0; height:100%;">
 				<!-- Full Page Image Background Carousel Header -->
 				<header id="myCarousel" class="carousel slide">

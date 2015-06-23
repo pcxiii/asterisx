@@ -1,3 +1,4 @@
+<?php include("includes/database.php"); ?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -8,21 +9,13 @@
 		<!-- PLUGINS -->
 		
 			<?php include('includes/head_default.php'); ?>
-		<!-- CUSTOM -->
-		<script type="text/javascript" src="js/script.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/standard.css">
+			<script src="js/admin_script.js"></script>
 
 	</head>
 	<body>
 		<div data-role="page" >
 
-			<div id="panel_right"  data-role="panel" data-display="overlay" data-position="right">
-				<div data-role="controlgroup" data-corners="false"> 
-					<a href="#" data-role="button">Profile</a>
-					<a href="#" data-role="button">Settings</a>
-					<a href="#" data-role="button">Logout</a>
-				</div>
-			</div><!-- end right panel -->
+			<?php include("templates/sidebar.admin.php") ?>
 
 			<?php include("templates/header.php") ?>
 		

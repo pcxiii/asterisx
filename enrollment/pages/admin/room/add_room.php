@@ -8,12 +8,13 @@
   </div>
   <div class='container'>
        <div class='row'>
-                <form class="">
+                <form class=""  action='?file=pages/admin/room/roomlist.php'data-ajax="false" method="post">
+                    <input type="hidden" name="cmd" value="add_room">
                     <div class='container row' style='margin-bottom:50px'>
                                 <div class='col-md-2'>                        
                                     <div class="form-group">
                                       <label for="tfname">Room Code</label>
-                                      <input type="text" class="form-control" id="tfname">
+                                      <input type="text" class="form-control" name='data[room_code]'id="tfname">
                                     </div>  
 
               
@@ -21,7 +22,7 @@
                                  <div class='col-md-4'>
                                 	      <div class="form-group">
                                       <label for="tfname">Room Description</label>
-                                      <input type="text" class="form-control" id="tfname">
+                                      <input type="text" class="form-control" name='data[room_desc]'id="tfname">
                                     </div>  
                                  </div>  
                     </div> 
@@ -34,14 +35,9 @@
                                      <a href="#" class="btn btn-muted btn-default popup_close" style='background-color:#666;color:white;float:left'>
                                     <span class="glyphicon glyphicon-remove"></span> Close
                                     </a>  
-                                    
-                                     <a href="#" class="btn btn-success btn-default" style='color:white;float:right;'>
-                                    <span class="glyphicon glyphicon-plus"></span> Add New
-                                    </a>                     
+                
   															
-                                        <a href="#" class="btn btn-success btn-default" style='color:white;float:right;margin-right:10px'>
-                                    <span class="glyphicon glyphicon-floppy-disk"></span> Save
-                                    </a> 
+                                <input type="submit" value="Save">
                            </div>
                   </div>
 
